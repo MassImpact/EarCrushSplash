@@ -1,0 +1,402 @@
+/*
+--------------------------
+BRAND COLORS
+--------------------------
+
+green
+#2f9d58
+
+gold
+#be8a39
+
+grey
+#4b4c49
+
+black
+#222321
+
+*/
+
+
+html,
+html * {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 18px;
+}
+
+p {
+  line-height: 1.65;
+  font-weight: 300;
+}
+
+a {
+  color: #d19333;
+  -webkit-transition: .2s all linear;
+-moz-transition: .2s all linear;
+-o-transition: .2s all linear;
+transition: .2s all linear;
+}
+
+.transiton {
+  -webkit-transition: .25s all linear;
+-moz-transition: .25s all linear;
+-o-transition: .25s all linear;
+transition: .25s all linear;
+}
+
+.btn {
+    -webkit-transition: .2s all linear;
+  -moz-transition: .2s all linear;
+  -o-transition: .2s all linear;
+  transition: .2s all linear;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-brand img {
+  height: 30px;
+  position: relative;
+  top: -4px;
+}
+
+.navbar-nav a {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.navbar-nav a:hover {
+  cursor: pointer;
+  text-shadow: 0.5px 0.5px 1px #000000;
+}
+
+.navbar-inverse .nav li.active a {
+  color: #ffffff;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.navbar-inverse .nav li.active a:hover {
+  color: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nav li.active {
+  background-color: transparent !important;
+}
+
+.navbar-inverse  {
+  background-color: #111111;
+  border-color: transparent;
+}
+
+
+
+.fan-banner {
+   position: relative;
+   background-image: url('../photos/concert.jpg');
+   background-size: cover;
+   background-position: center;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100%;
+}
+
+.fan-banner .color-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0.8;
+     /*background: #444444;*/
+     background: #222222;
+     /*background: #be8a39;*/
+     /*background: #2f9d58;*/
+     /* W3C Markup */
+     background-image: linear-gradient(to bottom right, #000000 0%, #4e1d86 100%);
+}
+
+
+.professional-banner {
+   position: relative;
+   background-color: #222222;
+   background-image: url('../img/professionals-header.jpg');
+   background-size: cover;
+   background-position: center;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100%;
+}
+
+.professional-banner .color-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0.8;
+     /*background: #444444;*/
+     background: #222222;
+     /*background: #be8a39;*/
+     /*background: #2f9d58;*/
+}
+
+.sample-bg {
+   position: relative;
+   background-image: url('../photos/controller.jpg');
+   background-size: cover;
+   background-position: bottom ;
+}
+
+.sample-bg .color-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0.4;
+     background: #444444;
+     /*background: #222222;*/
+     /*background: #be8a39;*/
+     /*background: #2f9d58;*/
+}
+
+.fan-banner .btn {
+  margin-top: 20px;
+}
+
+
+.top {
+  position: relative;
+  z-index: 1;
+}
+
+.btn {
+  border-radius: 1px;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: #f4f4f4;
+  border-width: 3px;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: #1a8140;
+  
+}
+
+.btn-bordered {
+  background-color: transparent;
+  border-color: #eeeeee;
+  border-width: 2px;
+  color: #eeeeee;
+}
+
+.btn-bordered:hover {
+  background-color: transparent;
+  border-color: #ffffff;
+  color: #cc8d2c;
+}
+
+.jumbotron .btn-bordered:hover {
+  background-color: #13b04e;
+  border-color: #13b04e;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+
+.bg-green .btn-bordered {
+  color: rgba(255, 255, 255, 0.85);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.bg-green .btn-bordered:hover {
+  color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+.btn-bordered-dark {
+  background-color: transparent;
+  border-color: #222222;
+  border-width: 2px;
+  color: #333333;
+}
+
+.btn-bordered-dark:hover {
+  background-color: transparent;
+  border-color: #111111;
+  color: #101010;
+  
+}
+
+
+
+.bg-green {
+  background-color: #2f9d58;
+  color: #f4f4f4;
+}
+
+.bg-gold {
+  background-color: #be8a39;
+  color: #f4f4f4;
+}
+
+.bg-purple {
+  background-color: #401e67;
+  color: #f4f4f4;
+}
+
+
+
+.bg-grey {
+  background-color: #4b4c49;
+  color: #f4f4f4;
+}
+
+.bg-black {
+  background-color: #222321;
+  color: #f4f4f4;
+}
+
+.bg-facebook a {
+  color: #304cd7;
+}
+
+.bg-twitter a {
+  color: #1b88cd;
+}
+
+.bg-youtube a {
+  color: #ec4418;
+}
+
+.bg-soundcloud a {
+  color: #ec7615;
+}
+
+.white {
+  color: #f4f4f4;
+}
+
+.mini-cta {
+  padding: 35px 0;
+}
+
+.mini-cta h2 {
+  margin: 8px 0 0;
+}
+
+.mini-cta .btn-bordered:hover {
+  background: #f4f4f4;
+  color: #2f9d58;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 35px;
+}
+
+.no-border-right {
+  border-right: 0;
+}
+
+.good-taste {
+  padding: 150px 0;
+}
+
+.good-taste h2 {
+  
+}
+
+.good-taste p {
+  
+}
+
+
+.block-section {
+    padding: 150px 0;
+}
+
+.block-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.block-section ul li {
+  line-height: 2;
+  border-bottom: 1px dashed rgba(120, 120, 120, 0.5);
+}
+
+.block-section ul li:last-child {
+  border-bottom: none;
+}
+
+.social-block {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+.social-block:hover {
+  background-color: #292929;
+}
+
+.padding-lg {
+  padding: 100px 0;
+}
+
+.last {
+  border-right: 3px solid #f4f4f4 !important;
+}
+
+.social-block i {
+  font-size: 80px;
+}
+
+.social-block a {
+  /*color: #f4f4f4;*/
+  height: 100%;
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 230px;
+  position: relative;
+}
+
+
+.button-group-wrap {
+    margin-top: 35px;
+}
+
+.footer {
+  padding: 50px 0;
+}
